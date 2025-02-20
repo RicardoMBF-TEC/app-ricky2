@@ -16,8 +16,10 @@ const Navbar = () => {
       {/* Buttons Section (Centering the buttons) */}
       <div className="flex-grow flex justify-center">
         <div className="flex space-x-4">
+          <Button href="/" text="Home" variant="text" /> 
           <Button href="/page2" text="Products" variant="text" />
-          <Button href="/page3" text="Page 3" variant="text" />
+          <Button href="/page3" text="Login" variant="text" />
+          <Button href="/counter" text="Counter" variant="text" />
         </div>
       </div>
     </nav>

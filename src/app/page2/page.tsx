@@ -31,9 +31,9 @@ export default function Page2() {
       <Navbar />
 
       {/* Centered content */}
-      <div className="flex flex-1 justify-center items-center mt-20">
+      <div className="flex flex-1 justify-center items-center mt-28">
         {/* Page Title */}
-        <h1 className="text-4xl font-bold text-center mb-8">FOR SALE</h1>
+        <h1 className="text-4xl font-bold text-center mb-4">SALE!</h1>
       </div>
 
       {/* Pass the items to ItemList */}
